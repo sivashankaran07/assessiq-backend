@@ -1,0 +1,11 @@
+2026-04-21 10:02:41,720 - ERROR - Error fetching schedules: 3 validation errors for schedule_list_response
+data.0.date
+  Input should be a valid string [type=string_type, input_value=datetime.date(2026, 4, 15), input_type=date]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+data.1.date
+  Input should be a valid string [type=string_type, input_value=datetime.date(2026, 4, 15), input_type=date]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+data.2.date
+  Input should be a valid string [type=string_type, input_value=datetime.date(2026, 4, 15), input_type=date]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+2026-04-21 10:03:23,997 - INFO - Schedules fetched: 3
